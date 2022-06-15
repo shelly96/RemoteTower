@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'de' Physical Memory: 16270 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Michelle/Documents/Studium/Master/SS22/Vertiefungsprofil2/RemoteTower
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60220
+Successfully changed project path to: C:/Users/Michelle/Documents/Studium/Master/SS22/Vertiefungsprofil2/RemoteTower
+C:/Users/Michelle/Documents/Studium/Master/SS22/Vertiefungsprofil2/RemoteTower
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 253.57 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 4.05 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Michelle/Documents/Studium/Master/SS22/Vertiefungsprofil2/RemoteTower/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.15.1215
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013205 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 183.90 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 16.568 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.041211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 174.13 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Michelle\Documents\Studium\Master\WiSe2122\NaturalUserInterfaces\Projekt\Unity-Projekt\blox-a-plant\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Michelle\Documents\Studium\Master\WiSe2122\NaturalUserInterfaces\Projekt\Unity-Projekt\blox-a-plant\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: C:/Users/Michelle/Documents/Studium/Master/WiSe2122/NaturalUserInterfaces/Projekt/Unity-Projekt/blox-a-plant/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.743 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.7 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3919.
+Total: 6.566800 ms (FindLiveObjects: 0.496000 ms CreateObjectMapping: 0.332300 ms MarkObjects: 5.589200 ms  DeleteObjects: 0.145900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/RemoteTower.unity
+  artifactKey: Guid(481f83a0622523e4c9bb46fde0272bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RemoteTower.unity using Guid(481f83a0622523e4c9bb46fde0272bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab377a61f8906c012eb68caa8ad8e2') in 0.036852 seconds
+  Import took 0.050340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000762 seconds.
+  path: Assets/3D/Plants/leafs.fbx
+  artifactKey: Guid(7adfa37e082ccaa4680977e5c3f22d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Plants/leafs.fbx using Guid(7adfa37e082ccaa4680977e5c3f22d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74718228aac2f16f80ccfd5e3b6256ad') in 2.008548 seconds
+  Import took 2.022825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/3D/Plants/blossom.fbx
+  artifactKey: Guid(93cac06d1f464cd48bcdd621ffd9fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Plants/blossom.fbx using Guid(93cac06d1f464cd48bcdd621ffd9fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8e772e90e21912adb3f2cdd741ee55') in 0.073187 seconds
+  Import took 0.087609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.153395 seconds.
+  path: Assets/3D Free Modular Kit/_Textures/Ambient_01.png
+  artifactKey: Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Free Modular Kit/_Textures/Ambient_01.png using Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18946190138bbcca5001ef9ec3ebf391') in 0.356396 seconds
+  Import took 0.379089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/3D Free Modular Kit/_Textures/Normal_01.png
+  artifactKey: Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Free Modular Kit/_Textures/Normal_01.png using Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561cd9f58def8c9a163151653e3f28d') in 0.216031 seconds
+  Import took 0.232812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000727 seconds.
+  path: Assets/3D Free Modular Kit/_Textures/Metal_01.tif
+  artifactKey: Guid(1d3de45b986d240139bd085299915265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Free Modular Kit/_Textures/Metal_01.tif using Guid(1d3de45b986d240139bd085299915265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e51793a8d10d149b080e013eade2c4') in 0.317659 seconds
+  Import took 0.334730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001243 seconds.
+  path: Assets/3D Free Modular Kit/_Textures/Neon.png
+  artifactKey: Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Free Modular Kit/_Textures/Neon.png using Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79fc6cfabc514711f36501982ae4264') in 0.019904 seconds
+  Import took 0.037455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/3D Free Modular Kit/_Textures/Diffuse_01.png
+  artifactKey: Guid(b2c54144d5fbb4a14b95d5e2ec07dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Free Modular Kit/_Textures/Diffuse_01.png using Guid(b2c54144d5fbb4a14b95d5e2ec07dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842c5e100261b07adcfdbf6afc58ce75') in 0.194938 seconds
+  Import took 0.215548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.750993 seconds.
+  path: Assets/Materials/Blox/branch.png
+  artifactKey: Guid(c4fc15ca5cbe1064494a8473e6d6ca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blox/branch.png using Guid(c4fc15ca5cbe1064494a8473e6d6ca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbc233e8a61e5af2d3a44d2843ed961') in 0.055958 seconds
+  Import took 0.087647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/Blox/rose.jpg
+  artifactKey: Guid(26f0d53f985aa3e4f85e6c80db962155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blox/rose.jpg using Guid(26f0d53f985aa3e4f85e6c80db962155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8773869c38ecc31798815173a54cdb99') in 0.047482 seconds
+  Import took 0.082421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001495 seconds.
+  path: Assets/Materials/Blox/leaf.png
+  artifactKey: Guid(e6b2207817afd324fa90509a9908ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blox/leaf.png using Guid(e6b2207817afd324fa90509a9908ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbf2a28211ffe5915a6bb5b87fc169d') in 0.051835 seconds
+  Import took 0.076222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/Materials/Blox/branch.png
+  artifactKey: Guid(c4fc15ca5cbe1064494a8473e6d6ca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blox/branch.png using Guid(c4fc15ca5cbe1064494a8473e6d6ca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbc233e8a61e5af2d3a44d2843ed961') in 0.033952 seconds
+  Import took 0.053026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Materials/Blox/leaf.png
+  artifactKey: Guid(e6b2207817afd324fa90509a9908ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blox/leaf.png using Guid(e6b2207817afd324fa90509a9908ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbf2a28211ffe5915a6bb5b87fc169d') in 0.018175 seconds
+  Import took 0.033068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.105536 seconds.
+  path: Assets/Materials/Materials/raster.png
+  artifactKey: Guid(39d73e1043778584b927e61640198c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/raster.png using Guid(39d73e1043778584b927e61640198c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819298c3ceb6ddc6ea84f3482065c29d') in 0.062240 seconds
+  Import took 0.088234 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Michelle\Documents\Studium\Master\WiSe2122\NaturalUserInterfaces\Projekt\Unity-Projekt\blox-a-plant\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Michelle\Documents\Studium\Master\WiSe2122\NaturalUserInterfaces\Projekt\Unity-Projekt\blox-a-plant\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: C:/Users/Michelle/Documents/Studium/Master/WiSe2122/NaturalUserInterfaces/Projekt/Unity-Projekt/blox-a-plant/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.814 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 3302 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 200.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3994.
+Total: 5.620000 ms (FindLiveObjects: 0.486800 ms CreateObjectMapping: 0.282900 ms MarkObjects: 4.800000 ms  DeleteObjects: 0.048200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Michelle\Documents\Studium\Master\WiSe2122\NaturalUserInterfaces\Projekt\Unity-Projekt\blox-a-plant\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Michelle\Documents\Studium\Master\WiSe2122\NaturalUserInterfaces\Projekt\Unity-Projekt\blox-a-plant\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: C:/Users/Michelle/Documents/Studium/Master/WiSe2122/NaturalUserInterfaces/Projekt/Unity-Projekt/blox-a-plant/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.054 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 200.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3997.
+Total: 6.419100 ms (FindLiveObjects: 0.555000 ms CreateObjectMapping: 0.352500 ms MarkObjects: 5.467500 ms  DeleteObjects: 0.042000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

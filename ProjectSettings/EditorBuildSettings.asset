@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/RemoteTowerWithoutScreens.unity
+    guid: 7b533dfe561bc47c8975c955fe4ef3d3
   - enabled: 1
-    path: Assets/Scenes/LowPoly.unity
-    guid: ba55305d53956224d83257ba3b2abb71
+    path: Assets/Scenes/RemoteTower.unity
+    guid: 562f657d3c5218c48a8e07951c62f3fc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 013955135a7aef941a3afc81534a9e39, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9ea3e74d09e462440b1ec963b07e8180, type: 2}
